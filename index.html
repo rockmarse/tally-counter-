@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Created Using Easy HTML v1.4.8 -->
+<!-- https://play.google.com/store/apps/details?id=ak.andro.easyhtml -->
+
+
+<html>
+  <head>
+    <title>counter
+    </title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+  <body>
+    <!-- Start your code here -->
+    <div class = "container">
+      <h1>Tally counter
+      </h1>
+      <h2 id ="count-el">0
+      </h2>
+      <button id ="increment" onclick ="increment()">Increment
+      </button>
+      <button id ="decrement" onclick = "decrement()">Decrement
+      </button>
+      <button id ="save" onclick ="save()">Save
+      </button>
+      <button id = "reset" onclick ="reset()">Reset
+      </button>
+      <p id ="previous-el">
+        <strong>
+          <b>Your previous clicks are : 
+          </b> 
+        </strong>
+      </p>
+    </div>
+    <style>
+      body {
+        background-color:grey;
+        background-size: cover;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        height: 100vh;
+      }
+      .container {
+        background: pink;
+        max-width: 80%;
+        margin: auto;
+        border: 3px solid black;
+        border-radius: 10px;
+      }
+      h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      h2 {
+        font-size:50px;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+      button {
+        border: 1px solid black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        font-weight: bold;
+        width: 200px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+      }
+      #increment {
+        background: #2C2891;
+      }
+      #decrement
+      {
+        background-color:blue;
+      }
+      #save {
+        background: #1C7947;
+      }
+      #reset{
+        background:yellow;
+        color:Black;
+      }
+      #previous-el {
+        font-weight: bold;
+      }
+    </style>
+    <!-- End your code here -->
+  <script src="./script.js"></script>
+</body>
+</html>
